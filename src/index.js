@@ -9,11 +9,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-let elem = (
-  <h1 className='H1'>Hello</h1>
-);
-
-let elem2 = React.createElement('h1',{className:'H2'},'Hello');
-
-

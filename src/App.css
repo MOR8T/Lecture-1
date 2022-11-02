@@ -23,6 +23,7 @@
 .container-2 h1{
     font-size: 4em;
     color: white;
+    margin: 50px;
 }
 .container-2 h2{
     font-size: 3em;
@@ -63,4 +64,24 @@
     width: 490px;
     height: 300px;
     background-image: url(./img/js6.jpg);
+}
+.js7{
+    width: 690px;
+    height: 300px;
+    background-image: url(./img/js7.jpg);
+}
+.js8{
+    width: 690px;
+    height: 150px;
+    background-image: url(./img/js8.jpg);
+}
+.js9{
+    width: 690px;
+    height: 220px;
+    background-image: url(./img/js9.jpg);
+}
+.js10{
+    width: 450px;
+    height: 100px;
+    background-image: url(./img/js10.jpg);
 }

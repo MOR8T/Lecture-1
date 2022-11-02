@@ -1,5 +1,22 @@
 import './App.css';
 
+function Welcome(props) {
+  return <h2>Hello, {props.name}!</h2>;
+}
+
+let elem2 = <Welcome name="Sara"/>;
+
+function APP(){
+  return (
+    <div>
+      <Welcome name="Rahim"/>
+      <Welcome name="Abubacr"/>
+      <Welcome name="Mujtabo"/>
+    </div>
+  )
+}
+
+
 function App() {
   return (
     <div className='container-max'>
@@ -19,6 +36,16 @@ function App() {
         <h2>#6</h2>
         <div className='js6'></div>
         <h1>Рендеринг элементов</h1>
+        <h2>ReactDOM.createRoot(document.getElementById('root'));</h2>
+        <h2>root.render()</h2>
+        <div className='js7'></div>
+        <h1>Компоненты и пропсы</h1>
+        <div className='js8'></div>
+        <div className='js9'></div>
+        <div className='js10'></div>
+        <p>{elem2}</p>
+        <div className='js11'></div>
+        <APP />
       </div>
       <div className='container-3'></div>
       <div className='container-4'></div>
@@ -29,12 +56,4 @@ function App() {
 
 export default App;
 
-
-const element = {
-  type: 'h1',
-  props: {
-    className: 'H1',
-    children: 'Hello'
-  }
-};
 
