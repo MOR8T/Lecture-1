@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contiainer-max{
+    width: 100%;
+    height: auto;
+    display: grid;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-1{
+    width: 100%;
+    height: 110vh;
+    background-image:url(./img/fonReact4.jpg);
+    background-size:cover;  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-2{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    background: rgb(239,0,255);
+    background: linear-gradient(90deg, rgba(239,0,255,1) 0%, rgba(105,2,133,1) 32%, rgba(3,0,110,1) 100%);
 }
-
-.App-link {
-  color: #61dafb;
+.container-2 h1{
+    font-size: 4em;
+    color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-2 h2{
+    font-size: 3em;
+    color: white;
+    text-align: left;
+    margin: 20px 20px 20px 50px;
+}
+.container-2 div{
+    margin: 30px 30px 30px 50px;
+    background-size: cover;
+}
+.js1{
+    width: 700px;
+    height: 200px;
+    background-image: url(./img/js1.jpg);
+}
+.js2{
+    width: 800px;
+    height: 350px;
+    background-image: url(./img/js2.jpg);
+}
+.js3{
+    width: 670px;
+    height: 300px;
+    background-image: url(./img/js3.jpg);
+}
+.js4{
+    width: 670px;
+    height: 300px;
+    background-image: url(./img/js4.jpg);
+}
+.js5{
+    width: 890px;
+    height: 200px;
+    background-image: url(./img/js5.jpg);
+}
+.js6{
+    width: 490px;
+    height: 300px;
+    background-image: url(./img/js6.jpg);
 }
